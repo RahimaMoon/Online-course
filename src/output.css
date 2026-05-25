@@ -15,6 +15,7 @@
     --color-orange-400: oklch(75% 0.183 55.934);
     --color-orange-500: oklch(70.5% 0.213 47.604);
     --color-amber-100: oklch(96.2% 0.059 95.617);
+    --color-amber-200: oklch(92.4% 0.12 95.746);
     --color-amber-300: oklch(87.9% 0.169 91.605);
     --color-pink-50: oklch(97.1% 0.014 343.198);
     --color-pink-100: oklch(94.8% 0.028 342.258);
@@ -275,6 +276,9 @@
   .left-\[10px\] {
     left: 10px;
   }
+  .left-\[100px\] {
+    left: 100px;
+  }
   .m-auto {
     margin: auto;
   }
@@ -431,6 +435,9 @@
   .gap-5 {
     gap: calc(var(--spacing) * 5);
   }
+  .gap-7 {
+    gap: calc(var(--spacing) * 7);
+  }
   .gap-8 {
     gap: calc(var(--spacing) * 8);
   }
@@ -572,6 +579,9 @@
   .bg-\[\#5A87FC\] {
     background-color: #5A87FC;
   }
+  .bg-\[\#7772F1\] {
+    background-color: #7772F1;
+  }
   .bg-\[\#E52F6E\] {
     background-color: #E52F6E;
   }
@@ -596,8 +606,17 @@
   .bg-amber-100 {
     background-color: var(--color-amber-100);
   }
+  .bg-amber-200 {
+    background-color: var(--color-amber-200);
+  }
   .bg-amber-300 {
     background-color: var(--color-amber-300);
+  }
+  .bg-gray-200 {
+    background-color: var(--color-gray-200);
+  }
+  .bg-gray-400 {
+    background-color: var(--color-gray-400);
   }
   .bg-gray-800 {
     background-color: var(--color-gray-800);
@@ -653,6 +672,9 @@
   .p-\[4px\] {
     padding: 4px;
   }
+  .p-\[8px\] {
+    padding: 8px;
+  }
   .p-\[10px\] {
     padding: 10px;
   }
@@ -670,6 +692,12 @@
   }
   .p-\[50px\] {
     padding: 50px;
+  }
+  .p-\[70px\] {
+    padding: 70px;
+  }
+  .p-\[px\] {
+    padding: px;
   }
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
@@ -867,6 +895,12 @@
     --tw-shadow-color: oklch(87.2% 0.01 258.338);
     @supports (color: color-mix(in lab, red, red)) {
       --tw-shadow-color: color-mix(in oklab, var(--color-gray-300) var(--tw-shadow-alpha), transparent);
+    }
+  }
+  .shadow-gray-400 {
+    --tw-shadow-color: oklch(70.7% 0.022 261.325);
+    @supports (color: color-mix(in lab, red, red)) {
+      --tw-shadow-color: color-mix(in oklab, var(--color-gray-400) var(--tw-shadow-alpha), transparent);
     }
   }
   .shadow-red-300 {
