@@ -948,6 +948,11 @@
       width: 40;
     }
   }
+  .lg\:w-\[50\%\] {
+    @media (width >= 64rem) {
+      width: 50%;
+    }
+  }
   .lg\:w-\[70\%\] {
     @media (width >= 64rem) {
       width: 70%;
@@ -1026,6 +1031,12 @@
   .lg\:pb-\[300px\] {
     @media (width >= 64rem) {
       padding-bottom: 300px;
+    }
+  }
+  .lg\:text-5xl {
+    @media (width >= 64rem) {
+      font-size: var(--text-5xl);
+      line-height: var(--tw-leading, var(--text-5xl--line-height));
     }
   }
   .lg\:text-6xl {
