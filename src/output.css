@@ -501,6 +501,9 @@
   .gap-20 {
     gap: calc(var(--spacing) * 20);
   }
+  .gap-\[10\] {
+    gap: 10;
+  }
   .gap-\[10px\] {
     gap: 10px;
   }
@@ -581,6 +584,10 @@
     border-radius: var(--radius-xl);
   }
   .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
+  .border-1 {
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
@@ -1059,9 +1066,19 @@
       width: 40;
     }
   }
+  .lg\:w-\[46\%\] {
+    @media (width >= 64rem) {
+      width: 46%;
+    }
+  }
   .lg\:w-\[50\%\] {
     @media (width >= 64rem) {
       width: 50%;
+    }
+  }
+  .lg\:w-\[60\%\] {
+    @media (width >= 64rem) {
+      width: 60%;
     }
   }
   .lg\:w-\[70\%\] {
