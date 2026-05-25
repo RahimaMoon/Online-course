@@ -437,11 +437,17 @@
   .gap-10 {
     gap: calc(var(--spacing) * 10);
   }
+  .gap-15 {
+    gap: calc(var(--spacing) * 15);
+  }
   .gap-20 {
     gap: calc(var(--spacing) * 20);
   }
   .gap-\[10px\] {
     gap: 10px;
+  }
+  .gap-\[15px\] {
+    gap: 15px;
   }
   .gap-\[20px\] {
     gap: 20px;
@@ -713,6 +719,9 @@
   .pr-3 {
     padding-right: calc(var(--spacing) * 3);
   }
+  .pr-15 {
+    padding-right: calc(var(--spacing) * 15);
+  }
   .pr-20 {
     padding-right: calc(var(--spacing) * 20);
   }
@@ -724,6 +733,9 @@
   }
   .pr-\[10px\] {
     padding-right: 10px;
+  }
+  .pr-\[20px\] {
+    padding-right: 20px;
   }
   .pr-\[30px\] {
     padding-right: 30px;
@@ -998,6 +1010,12 @@
       column-gap: 150px;
     }
   }
+  .lg\:border-r-2 {
+    @media (width >= 64rem) {
+      border-right-style: var(--tw-border-style);
+      border-right-width: 2px;
+    }
+  }
   .lg\:p-\[50px\] {
     @media (width >= 64rem) {
       padding: 50px;
@@ -1031,6 +1049,11 @@
   .lg\:pt-\[100px\] {
     @media (width >= 64rem) {
       padding-top: 100px;
+    }
+  }
+  .lg\:pr-15 {
+    @media (width >= 64rem) {
+      padding-right: calc(var(--spacing) * 15);
     }
   }
   .lg\:pb-\[100px\] {
