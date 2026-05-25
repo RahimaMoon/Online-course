@@ -973,6 +973,11 @@
       flex-direction: row;
     }
   }
+  .lg\:justify-between {
+    @media (width >= 64rem) {
+      justify-content: space-between;
+    }
+  }
   .lg\:p-\[50px\] {
     @media (width >= 64rem) {
       padding: 50px;
