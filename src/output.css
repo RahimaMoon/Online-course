@@ -512,6 +512,9 @@
   .gap-\[5px\] {
     gap: 5px;
   }
+  .gap-\[8px\] {
+    gap: 8px;
+  }
   .gap-\[10px\] {
     gap: 10px;
   }
@@ -523,6 +526,9 @@
   }
   .gap-\[20px\] {
     gap: 20px;
+  }
+  .gap-\[px\] {
+    gap: px;
   }
   .space-y-3 {
     :where(& > :not(:last-child)) {
@@ -939,6 +945,9 @@
   }
   .text-\[\#FF4242\] {
     color: #FF4242;
+  }
+  .text-\[FF3F3A\] {
+    color: FF3F3A;
   }
   .text-\[primary\] {
     color: primary;
