@@ -30,6 +30,7 @@
     --color-gray-400: oklch(70.7% 0.022 261.325);
     --color-gray-500: oklch(55.1% 0.027 264.364);
     --color-gray-600: oklch(44.6% 0.03 256.802);
+    --color-gray-700: oklch(37.3% 0.034 259.733);
     --color-gray-800: oklch(27.8% 0.033 256.848);
     --color-white: #fff;
     --spacing: 0.25rem;
@@ -939,6 +940,9 @@
   .text-\[\#FF4242\] {
     color: #FF4242;
   }
+  .text-\[primary\] {
+    color: primary;
+  }
   .text-gray-300 {
     color: var(--color-gray-300);
   }
@@ -950,6 +954,9 @@
   }
   .text-gray-600 {
     color: var(--color-gray-600);
+  }
+  .text-gray-700 {
+    color: var(--color-gray-700);
   }
   .text-gray-800 {
     color: var(--color-gray-800);
